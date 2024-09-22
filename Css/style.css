@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    padding:0 ;
+}
+@font-face {
+    font-family: 'Young-Serif';
+    src: url('../assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal; 
+}
+@font-face {
+    font-family: 'OFL';
+    src: url('../assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal; 
+}
+.reciepe-image{
+    width:100%;
+    height: auto;
+    border-radius: 20px;
+    position: relative;
+    margin: auto;
+}
+.Recipe{
+    position: relative;
+    display:block;   
+    max-width: 700px; 
+    width: 100%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+h1{
+    font-family: 'Young-Serif';
+    color:  hsl(24, 5%, 18%);
+    margin-top: 20px;
+}
+p{
+    font-family: 'OFL';
+    margin-top: 20px;
+    color: hsl(30, 10%, 34%);
+
+}
+.prep-time{
+ margin-top: 20px ;
+ font-family: 'OFL';
+ background-color: hsla(332, 73%, 84%, 0.345);
+ border-radius: 20px;
+ padding-bottom: 20px;
+}
+
+h3{
+    padding:20px 0 5px 20px;
+    color: hsl(332, 51%, 32%);
+}
+ul li{
+   list-style-position: inside;
+    padding:10px 0 5px 20px;
+    color: hsl(30, 10%, 34%) ;
+}
+ul  li::marker{
+    color:hsl(332, 51%, 32%) ;
+}
+
+.first-word{
+    font-weight: bold;
+    font-weight: bolder;
+    font-size:medium;
+    padding-left:10px;
+}
+.ingredients{
+margin:20px 0 20px 20px;
+}
+.ingredients li{
+    font-family: 'OFL';
+    padding: 10px 5px 10px;
+    color: hsl(30, 10%, 34%) ;  
+    list-style:square;
+    list-style-position: inside;
+    
+}
+.ingredients li::marker{
+    color: hsl(14, 45%, 36%);
+    font-size: 10px;
+}
+h2{
+    padding-bottom: 10px;
+    font-family: 'Young-serif';
+    color: hsl(14, 45%, 36%);
+}
+.instruction{
+margin:20px 0 20px 20px;
+}
+.instruction li{
+    font-family: 'OFL';
+    padding:10px 5px 10px 0;
+    color: hsl(30, 10%, 34%) ; 
+    list-style-position: inside; 
+}
+.instruction li::marker{
+    color: hsl(14, 45%, 36%);
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.nutration{
+margin:20px 0 20px 20px;
+}
+.nutparag{
+    margin:20px 2px 20px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+tr{
+border-bottom: 1px solid  hsl(33, 12%, 54%); 
+}
+tr:last-child{
+    border-bottom: none;
+}
+td {
+    padding: 10px 0 10px 20px;
+    text-align: left;
+    font-family: 'OFL';
+    color: hsl(30, 10%, 34%);
+  }
+.td2{
+    color: hsl(14, 45%, 36%);
+    font-weight: bolder;
+  }
+
+body{
+    width:100%;
+    background-color:  hsl(30, 54%, 90%);
+    display: flex;
+    align-content: center;
+}
+.attribution{
+    position: fixed;
+    bottom: 0;
+    left: 20px;
+}
